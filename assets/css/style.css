@@ -113,7 +113,7 @@ input[type='submit'] {
     font-weight: 900;
 }
 
-input[type='submit']:hover {
+input[type='submit']:{
     background-color: #006d6d;
     color: #c46a21;
 }
@@ -157,39 +157,20 @@ input[type='submit']:hover {
 }
 
 .box1 {
-    background-image: url("../images/BrickBash.png");
+    background-image: url("");
 }
 .box2 {
-    background-image: url("../images/charHomeBuild.png");
+    background-image: url("");
     background-size: 275px 275px;
 }
 
 .box3 {
-    background-image: url("../images/SOBanner.png");
+    background-image: url("");
     
 }
 .box4 {
-    background-image: url("../images/weDoTech.PNG");
+    background-image: url("");
     background-size: 275px 275px;
-}
-ul.myLink img { width: 64px; height: 64px; }
-ul.myLink li { display: inline-block; padding: 5px;}
-
-/* CLEARFIX FROM BOOTSTRAP */
-.future:after {
-    clear: both;
-    content: ".";
-    display: block;
-    height: 0;
-    visibility: hidden;
-}
-.future {
-    display: inline-block;
-}
-.future {
-    display: block;
-}
-
 
 #footerSection, .push {  height: 50px; }
 #footerSection { 
@@ -210,4 +191,8 @@ footer {
 
 .paragraph{
     margin-right: auto;
+}
+
+.mylinks{
+    float;left: auto;
 }
